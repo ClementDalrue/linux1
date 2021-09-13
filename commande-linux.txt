@@ -1,0 +1,53 @@
+Bureau     Images   Musique  snap             Vidéos
+Documents  Modèles  Public   Téléchargements
+dalrue@dalrue-clement:~$ cd
+dalrue@dalrue-clement:~$ cd Images
+dalrue@dalrue-clement:~/Images$ cd ..
+dalrue@dalrue-clement:~$ pwd
+/home/dalrue
+dalrue@dalrue-clement:~$ ls snap
+snap-store
+dalrue@dalrue-clement:~$ pdw
+
+La commande « pdw » n'a pas été trouvée, voulez-vous dire :
+
+  commande « pwd » du deb coreutils (8.30-3ubuntu2)
+
+Essayez : sudo apt install <nom du deb>
+
+dalrue@dalrue-clement:~$ pwd
+/home/dalrue
+dalrue@dalrue-clement:~$ cd /opt
+dalrue@dalrue-clement:/opt$ pwd
+/opt
+dalrue@dalrue-clement:/opt$ Musique
+Musique : commande introuvable
+dalrue@dalrue-clement:/opt$ ls
+dalrue@dalrue-clement:/opt$ /home/dalrue/Images
+bash: /home/dalrue/Images : est un dossier
+dalrue@dalrue-clement:/opt$ ~
+bash: /home/dalrue : est un dossier
+dalrue@dalrue-clement:/opt$ cd ;;
+bash: erreur de syntaxe près du symbole inattendu « ;; »
+dalrue@dalrue-clement:/opt$ cd..
+cd.. : commande introuvable
+dalrue@dalrue-clement:/opt$ cd ..
+dalrue@dalrue-clement:/$ pwd
+/
+dalrue@dalrue-clement:/$ cd ..
+dalrue@dalrue-clement:/$ cd ../home/dalrue
+dalrue@dalrue-clement:~$ pwd
+/home/dalrue
+dalrue@dalrue-clement:~$ ^C
+dalrue@dalrue-clement:~$ ls -l/bin
+ls : option invalide -- '/'
+Saisissez « ls --help » pour plus d'informations.
+dalrue@dalrue-clement:~$ ls -l /bin
+lrwxrwxrwx 1 root root 7 sept. 13 18:38 /bin -> usr/bin
+dalrue@dalrue-clement:~$ ls /home
+dalrue
+dalrue@dalrue-clement:~$ cd Images
+dalrue@dalrue-clement:~/Images$ cd ..
+dalrue@dalrue-clement:~$ cd ~/Music
+bash: cd: /home/dalrue/Music: Aucun fichier ou dossier de ce type
+dalrue@dalrue-clement:~$ 
